@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">DU version</string>
+    <string name="mod_version">MY version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- Main list strings -->
@@ -156,9 +156,9 @@
     <string name="alarm_sound_title">Default alarm sound</string>
     <string name="alarm_sound_dialog_title">Default alarm sound</string>
 
-    <!-- Dirty Tweaks -->
-    <string name="dirt_settings">Dirty Tweaks</string>
-    <string name="du_bugreport">Bug Report</string>
+    <!-- Rom Tweaks -->
+    <string name="dirt_settings">Rom Tweaks</string>
+    <string name="my_bugreport">Bug Report</string>
     <string name="generalUI_title">General UI</string>
     <string name="multitasking_title">Multi-Tasking</string>
     <string name="statusbar_title">Status Bar</string>
@@ -168,7 +168,7 @@
     <string name="status_bar_style_title">Quick Settings Pulldown</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="status_bar_misc">Misc Tweaks</string>
-    <string name="dirt_settings_title">Dirty Tweaks</string>
+    <string name="dirt_settings_title">Rom Tweaks</string>
     <string name="powermenu_settings">Power Menu</string>
     <string name="powermenu_cat">Shortcuts</string>
     <string name="recents_view">Clear-All button</string>
@@ -435,7 +435,7 @@
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Warning</string>
-    <string name="custom_runtime_warning_message">ART is not supported by DU. This setting is included for experimentation only and has the potential to cause instability, crashes, data loss, a nuclear holocaust and your cat may catch on fire. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+    <string name="custom_runtime_warning_message">ART is not supported. This setting is included for experimentation only and has the potential to cause instability, crashes, data loss, a nuclear holocaust and your cat may catch on fire. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
 
     <!-- MediaScanner behavior on boot -->
     <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
@@ -456,12 +456,6 @@
     <string name="increasing_ring_interval_3seconds">3 seconds</string>
     <string name="increasing_ring_interval_5seconds">5 seconds</string>
     <string name="increasing_ring_interval_10seconds">10 seconds</string>
-
-    <!-- Share Dirty Unicorns -->
-    <string name="share_du_title">Share Dirty Unicorns</string>
-    <string name="share_du_summary">Let others know about Dirty Unicorns</string>
-    <string name="share_message">Check out what #DirtyUnicorns is all about @ http://goo.gl/emISQ1</string>
-    <string name="share_chooser_title">Share Dirty Unicorns</string>
 
     <!-- Performance Settings | Warning dialog -->
     <string name="performance_settings_warning_title">Proceed with Caution</string>
@@ -665,7 +659,7 @@
     <string name="title_tile_headsup">Heads Up</string>
     <string name="title_tile_camera">Camera</string>
     <string name="title_tile_cpufreq">CPUFreq</string>
-    <string name="title_tile_dirtytweaks">Dirty Tweaks</string>
+    <string name="title_tile_romtweaks">Rom Tweaks</string>
     <string name="title_tile_dynamiccolors">Dynamic Colors</string>
     <string name="dynamic_tile_ime_switcher">IME switcher</string>
     <string name="dynamic_tile_usb_tether">USB tether</string>
@@ -703,18 +697,9 @@
     <string name="music_tile_mode_background">Show album artwork</string>
     <string name="music_tile_mode_tracktitle">Show track title</string>
 
-    <!-- DU Changelog -->
-    <string name="duchangelog">DU Changelog</string>
-    <string name="du_summary">Check to see what has changed in DU</string>
-    <string name="du_app_name">DU Changelog</string>
-
-    <!-- DU Extra Info -->
-    <string name="duextrainfo">Extra information</string>
-    <string name="duextrainfo_summary">Display extra info for cpu, display, etc</string>
-
-    <!-- DU Stats -->
+    <!-- MY Stats -->
     <string name="du_stats">DU Statistics</string>
-    <string name="du_stats_summary">Help make DU better by opting into anonymous stats reporting</string>
+    <string name="du_stats_summary">Help make us better by opting into anonymous stats reporting</string>
 
     <!-- Quick access ribbon -->
     <string name="cm_style_tiles">Quick Access ribbon</string>
@@ -782,10 +767,6 @@
     <string name="ga_gestures_rename_title">Rename gesture</string>
     <string name="ga_gestures_rename_label">Gesture name</string>
     <string name="ga_gestures_error_loading">Could not load %s. Make sure you have storage available.</string>
-
-    <!-- About Dirt -->
-    <string name="aboutdirt">About DU</string>
-    <string name="aboutdirt_summary">Info about the devs, maintainers, contributors and rom features</string>
 
     <!-- Identicons -->
     <string name="identicons_title">Identicons</string>
@@ -1941,13 +1922,13 @@
     <!-- Anonymous Statistics -->
     <string name="main_title">Anonymous Usage Data</string>
     <string name="notification_ticker">Statistics Opted-In</string>
-    <string name="notification_title">DU Statistics</string>
+    <string name="notification_title">Statistics</string>
     <string name="notification_desc">Enable or Disable Anonymous Statistics</string>
-    <string name="anonymous_statistics_title">DU Statistics</string>
-    <string name="anonymous_statistics_summary">Help make DU better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">Statistics</string>
+    <string name="anonymous_statistics_summary">Help make us better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">Anonymous Stats</string>
-    <string name="anonymous_statistics_warning">Opting into DU Statistics will allow non-personal data to be submitted to the
-        developers of Dirty Unicorns to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into Statistics will allow non-personal data to be submitted to the
+        developers to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview the stats</string>
@@ -1958,7 +1939,7 @@
     <string name="preview_version_title">Version</string>
     <string name="preview_country_title">Country</string>
     <string name="preview_carrier_title">Carrier</string>
-    <string name="preview_romversion_title">DU Version</string>
+    <string name="preview_romversion_title">Version</string>
 
     <!-- Weather -->
     <string name="weather_settings_title">Weather</string>
@@ -2421,11 +2402,6 @@
     <string name="tinted_statusbar_filter_summary">Enable using reverse color</string>
     <string name="tinted_statusbar_transparent_title">Status bar opacity</string>
     <string name="tinted_navbar_transparent_title">Navigation bar opacity</string>
-
-    <!-- Dialogs -->
-    <string name="dirtytweaks_dialog_title">Help Us, Help You!!</string>
-    <string name="dirtytweaks_dialog_message">Unfortunately we are not wizards!\n\nSo if you find a bug with any of these settings, please open up a ticket on Jira or contact a DU developer with the following.\n\n1. Logcat or Last_Kmsg\n2. Kernel and Mods used\n3. Useful information\n\nIf you fail to report something, do not expect things to be fixed. Remember, we are not wizards so we do miss things.</string>
-    <string name="dirtytweaks_dialog_toast">READ THE WHOLE THING!</string>
 
     <!-- Notify changed networks -->
     <string name="wifi_notify_changed_networks">Wifi connected notification</string>
